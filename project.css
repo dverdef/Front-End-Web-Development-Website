@@ -1,0 +1,575 @@
+
+body{
+  width: 90vw;
+  height: 90vh;
+  background: url("https://wallabywalls.com/cdn/shop/products/il_fullxfull.1852373613_nzh8_1500x.jpg?v=1662076873");
+  background-size: cover;
+  position: relative;
+} 
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+  width: auto;
+}
+
+.navbar{
+  width: 100%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.logo{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  padding: 30px;
+  filter: drop-shadow(30px 10px 4px #ffffff);
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  border-style: solid;
+  border-color: white;
+  font-family: 'Impact';
+  font-size: 30px;
+  margin: 20px auto;
+  padding: 20px;
+  font-weight: 3;
+  letter letter-spacing: 3px;
+  background: transparent;
+  margin-right: 20px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+}
+
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 100%;
+  position: absolute;
+}
+
+.hr{
+  border: 20px;
+  border-style: outset;
+}
+
+.one{
+  font-family: 'Impact';
+  letter-spacing: 3px;
+  color: white;
+  font-size: 35px;
+  text-shadow: 5px 5px 10px white;
+  font-weight: 75;
+  text-indent: 30px;
+}
+
+.p1 {
+  font-family: 'Impact';
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.navbar img{
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  height: 275px;
+  width: 350px;
+}
+
+.learnMore a{
+  text-decoration: none;
+  font-family: 'Impact';
+  font-size: 25px;
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.learnMore h1 a{
+  border-style: solid;
+  border-color: white;
+  padding: 25px;
+  font-weight: 30;
+}
+
+.cityinfo h1{
+  font-family: 'Impact';
+  font-size: 50px;
+  color: white;
+  margin-right: 30px;
+  font-weight: 75;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  display: grid;
+  align-content: center;
+}
+
+.column a img{
+  text-align: center;
+  height: 275px;
+  width: 350px;
+  margin-bottom: 4em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.column h2{
+  color: lightsalmon;
+  font-family: 'Impact';
+  font-size: 40px;
+  font-weight: 75;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 4em;
+  background-color: rgba(255, 255, 255, 0.88);
+  border:1px solid;
+  padding: 30px;
+}
+
+h1.miscellaneous{
+  margin-top: 5em;
+  color: white;
+  font-size: 45px;
+  font-family: 'Impact';
+  text-align: center;
+}
+
+.iframe{
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+.footer{
+  font-family: 'Calibri Light';
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+footer:hover{
+  background-color: lightpink;
+}
+
+.sacramentoArea{
+  margin: auto;
+  background-color: #ffffff;
+  border: 1px solid white;
+  opacity: 0.6;
+}
+
+
+#sacramento h1{
+  font-size: 40px;
+  color: black;
+  font-family: 'Impact';
+  text-align: center;
+  font-weight: 60;
+}
+
+#quickfacts h2{
+  font-size: 25px;
+  color: black;
+  font-family: 'Impact';
+  text-align: center;
+  font-weight: 60;
+}
+
+#table table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+  font-weight: 20;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+#sacramentoSummary p{
+  
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+}
+
+.sectionImage img{
+  display: flex;
+  float: right;
+  height: 275px;
+  width: 350px;
+  margin-left: 2em;
+}
+
+#sacramentoSummary{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: left;
+  display: inline-block;
+}
+
+#fromSummary{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+}
+
+#funFacts{
+  font-size: 25px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+  text-decoration: underline;
+}
+
+.miscFacts li{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: left;
+  list-style-position: inside;
+}
+
+#funFactsSource{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+}
+
+.fremontArea{
+  margin: auto;
+  background-color: #ffffff;
+  border: 1px solid white;
+  opacity: 0.6;
+}
+
+#fremont h1{
+  font-size: 40px;
+  color: black;
+  font-family: 'Impact';
+  text-align: center;
+  font-weight: 60;
+}
+
+#quickfactsFremont h2{
+  font-size: 25px;
+  color: black;
+  font-family: 'Impact';
+  text-align: center;
+  font-weight: 60;
+}
+
+.sectionImageFremont img{
+  display: flex;
+  float: right;
+  height: 275px;
+  width: 350px;
+  margin-left: 2em;
+}
+
+#tableFremont table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+  font-weight: 20;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  #fremontSummary{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: left;
+  display: inline-block;
+}
+
+#fromSummary1{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+}
+
+#funFactsFremont{
+  font-size: 25px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+  text-decoration: underline;
+}
+
+.miscFactsFremont li{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: left;
+  list-style-position: inside;
+}
+
+#funFactsSourceFremont{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+}
+
+.unioncityArea{
+  margin: auto;
+  background-color: #ffffff;
+  border: 1px solid white;
+  opacity: 0.6;
+}
+
+#unioncity h1{
+  font-size: 40px;
+  color: black;
+  font-family: 'Impact';
+  text-align: center;
+  font-weight: 60;
+}
+
+#quickfactsUnionCity h2{
+  font-size: 25px;
+  color: black;
+  font-family: 'Impact';
+  text-align: center;
+  font-weight: 60;
+}
+
+.sectionImageUnionCity img{
+  display: flex;
+  float: right;
+  height: 275px;
+  width: 350px;
+  margin-left: 2em;
+}
+
+#tableUnionCity table, th, td{
+  border: 1px solid;
+  border-collapse: collapse;
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+  font-weight: 30;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+  #unioncitySummary{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: left;
+  display: inline-block;
+}
+
+#fromSummary2{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+}
+
+#funFactsUnionCity{
+  font-size: 25px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+  text-decoration: underline;
+}
+
+.miscFactsUnionCity li{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: left;
+  list-style-position: inside;
+}
+
+#funFactsSourceUnionCity{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+}
+
+.californiaBackground{
+  margin: auto;
+  background-color: #ffffff;
+  border: 1px solid white;
+  opacity: 0.6;
+}
+
+#california h1{
+  font-size: 40px;
+  color: black;
+  font-family: 'Impact';
+  text-align: center;
+  font-weight: 60;
+}
+
+#quickfactsCalifornia h2{
+  font-size: 25px;
+  color: black;
+  font-family: 'Impact';
+  text-align: center;
+  font-weight: 60;
+}
+
+#californiatable table, th, td{
+  border: 1px solid;
+  border-collapse: collapse;
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+  font-weight: 30;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.statePhoto img{
+  height: 275px;
+  width: 350px;
+}
+
+  #californiaSummary{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: left;
+  display: inline-block;
+}
+
+#fromSummary3{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+}
+
+#funFactsCalifornia{
+  font-size: 25px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+  text-decoration: underline;
+}
+
+.miscFactsCalifornia li{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: left;
+  list-style-position: inside;
+}
+
+#funFactsSourceCalifornia{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: center;
+}
+
+.submissionForm{
+  margin: auto;
+  background-color: white;
+  border: 1px solid white;
+  opacity: 0.6;
+  padding: 60px;
+}
+
+.submissionForm h1{
+  font-size: 40px;
+  color: black;
+  font-family: 'Impact';
+  text-align: center;
+  font-weight: 20;
+}
+
+input{
+  width: 50%;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
+.submissionForm1 label{
+  font-size: 20px;
+  font-family: 'Calibri Light';
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.bibliography{
+  margin: auto;
+  background-color: #ffffff;
+  border: 1px solid white;
+  opacity: 0.6;
+}
+
+.bibliography h1{
+  font-size: 40px;
+  color: black;
+  font-family: 'Impact';
+  text-align: center;
+  font-weight: 20;
+}
+
+.bibliography ol li{
+  font-size: 20px;
+  color: black;
+  font-family: 'Calibri Light';
+  text-align: left;
+  margin: 20px;
+}
+
+.submissionForm1 button{
+  padding: 20px;
+  width: 15%;
+}
+
+
+
